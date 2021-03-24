@@ -36,6 +36,12 @@ font-family: 'Open Sans', sans-serif;
 /* typography
 ==================================================*/
 
+html,body{
+    /*background-color: red;*/
+    overflow-x: hidden;
+    width: 100%;
+}
+
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
@@ -305,11 +311,12 @@ a.active {
 .home-border {
     position: absolute;
     border: 10px solid #E8943C;
-    width: 400px;
-    height: 115px;
-    top: 515px;
-    left: 220px;
+    width: 27%;
+    height: 10%;
+    top: 50%;
+    left: 12%;
     z-index: 1;
+    overflow: hidden;
 }
 
 
@@ -329,11 +336,12 @@ a.active {
     position: absolute;
     background-color: #E8943C;
     border: 10px solid #E8943C;
-    width: 400px;
-    height: 200px;
-    top: 80px;
+    width: 70%;
+    height: 40%;
+    top: 14%;
     right: 250px;
     z-index: 1;
+    overflow: hidden;
 }
 
 .about-border {
@@ -343,17 +351,8 @@ a.active {
     height: 400px;
     top: 40px;
     left: 50px;
-    z-index: 1
-}
-
-.about-border_orange {
-    position: absolute;
-    border: 10px solid #E8943C;
-    width: 350px;
-    height: 425px;
-    top: 350px;
-    left: 350px;
-    z-index: 1
+    z-index: 1;
+    overflow: hidden;
 }
 
 /* experience section
@@ -517,8 +516,8 @@ a.active {
 .port-border {
     position: absolute;
     border: 10px solid #425BB5;
-    width: 550px;
-    height: 400px;
+    width: 50%;
+    height: 200%;
     top: 825px;
     right: 690px;
     z-index: 1
